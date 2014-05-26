@@ -99,7 +99,7 @@ describe('Language', function () {
         var actual = hl('CodeBlock', value, 'html');
         actual.should.eql({
             t: 'RawBlock',
-            c: ['html','<pre class="SourceCode"><code class="SourceCode">some code</code></pre>']
+            c: ['html','<pre class="sourceCode"><code class="sourceCode">some code</code></pre>']
         });
     });
 
