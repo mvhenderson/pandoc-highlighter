@@ -32,7 +32,7 @@ npm install -g pandoc-highlighter
 ## Example
 
 ```bash
-pandoc -o sample.html -F pandoc-highlighter.js sample.md
+pandoc -o sample.html -F pandoc-highlighter sample.md
 ```
 
 ## License
