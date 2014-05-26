@@ -1,6 +1,6 @@
 {
   "name": "pandoc-highlighter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pandoc source code highlighting with CodeMirror",
   "license": "MIT",
   "repository": "mvhenderson/pandoc-highlighter",
