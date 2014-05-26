@@ -14,7 +14,7 @@ var hl = require('../index')({
         'nosj': 'application/json', // alias to mime
         'ARMv6': {name: 'gas', architecture: 'ARMv6'}, //alias to spec
     },
-    styles: {} // skip the styleHack for now
+    styles: {} // skip the styleHack
 });
 
 function run(input, output, classes, format, vars) {
@@ -63,7 +63,35 @@ describe('Format', function () {
     it('ignores unsupported formats', function () {
         if (should(hl('CodeBlock',['',[],[]],'markdown') === undefined).ok);
     });
+});
 
+describe('Inline', function () {
+    it('html', function () {
+        var value = [['', ['javascript'], []],'//comment'];
+        var actual = hl('Code', value, 'html');
+        actual.should.eql({
+            t: 'RawInline',
+            c: ['html','<code class="sourceCode"><span class="co">//comment</span></code>']
+        });
+    });
+
+    it('pdf', function () {
+        var value = [['', ['javascript'], []],'//comment'];
+        var actual = hl('Code', value, 'pdf');
+        actual.should.eql({
+            t: 'RawInline',
+            c: ['latex','\\VERB|\\CommentTok{//comment}|']
+        });
+    });
+
+    it('docx', function () {
+        var value = [['', ['javascript'], []],'//comment'];
+        var actual = hl('Code', value, 'docx');
+        actual.should.eql({
+            t: 'RawInline',
+            c: ['openxml','<w:r><w:rPr><w:rStyle w:val="CommentTok"/></w:rPr><w:t xml:space="preserve">//comment</w:t></w:r>\n']
+        });
+    });
 });
 
 describe('Language', function () {
