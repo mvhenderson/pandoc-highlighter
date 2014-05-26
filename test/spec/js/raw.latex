@@ -1,0 +1,18 @@
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{// a comment}
+\KeywordTok{function} \FunctionTok{foo}\NormalTok{(}\DataTypeTok{a}\NormalTok{,}\DataTypeTok{b}\NormalTok{,}\DataTypeTok{c}\NormalTok{)} \NormalTok{\{}
+
+  \FunctionTok{console}\NormalTok{.}\OtherTok{log}\NormalTok{(}\StringTok{"Hello World"}\NormalTok{);}
+
+  \KeywordTok{var} \DataTypeTok{x} \NormalTok{=} \FunctionTok{y} \NormalTok{+} \DecValTok{123}\NormalTok{;}
+
+  \KeywordTok{for} \NormalTok{(}\KeywordTok{var} \DataTypeTok{i} \NormalTok{=} \DecValTok{0}\NormalTok{;} \FunctionTok{i} \NormalTok{<} \DecValTok{10}\NormalTok{;} \FunctionTok{i}\NormalTok{++)} \NormalTok{\{}
+    \FunctionTok{a} \NormalTok{=} \FunctionTok{b} \FunctionTok{\textbackslash\{\}} \FunctionTok{c}\NormalTok{;}
+  \NormalTok{\}}
+
+  \KeywordTok{return} \FunctionTok{a}\NormalTok{;}
+\NormalTok{\}}
+
+\end{Highlighting}
+\end{Shaded}

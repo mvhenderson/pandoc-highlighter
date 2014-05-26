@@ -1,0 +1,73 @@
+<w:p><w:pPr><w:pStyle w:val="SourceCode"/></w:pPr>
+<w:r><w:rPr><w:rStyle w:val="CommentTok"/></w:rPr><w:t xml:space="preserve">// a comment</w:t></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:rPr><w:rStyle w:val="KeywordTok"/></w:rPr><w:t xml:space="preserve">function</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="FunctionTok"/></w:rPr><w:t xml:space="preserve">foo</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">(</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="DataTypeTok"/></w:rPr><w:t xml:space="preserve">a</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">,</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="DataTypeTok"/></w:rPr><w:t xml:space="preserve">b</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">,</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="DataTypeTok"/></w:rPr><w:t xml:space="preserve">c</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">) {</w:t></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">  </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="FunctionTok"/></w:rPr><w:t xml:space="preserve">console</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">.</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="OtherTok"/></w:rPr><w:t xml:space="preserve">log</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">(</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="StringTok"/></w:rPr><w:t xml:space="preserve">&quot;Hello World&quot;</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">);</w:t></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">  </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="KeywordTok"/></w:rPr><w:t xml:space="preserve">var</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="DataTypeTok"/></w:rPr><w:t xml:space="preserve">x</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> = </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="FunctionTok"/></w:rPr><w:t xml:space="preserve">y</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> + </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="DecValTok"/></w:rPr><w:t xml:space="preserve">123</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">;</w:t></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">  </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="KeywordTok"/></w:rPr><w:t xml:space="preserve">for</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> (</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="KeywordTok"/></w:rPr><w:t xml:space="preserve">var</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="DataTypeTok"/></w:rPr><w:t xml:space="preserve">i</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> = </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="DecValTok"/></w:rPr><w:t xml:space="preserve">0</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">; </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="FunctionTok"/></w:rPr><w:t xml:space="preserve">i</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> &lt; </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="DecValTok"/></w:rPr><w:t xml:space="preserve">10</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">; </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="FunctionTok"/></w:rPr><w:t xml:space="preserve">i</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">++) {</w:t></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">    </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="FunctionTok"/></w:rPr><w:t xml:space="preserve">a</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> = </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="FunctionTok"/></w:rPr><w:t xml:space="preserve">b</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="FunctionTok"/></w:rPr><w:t xml:space="preserve">\</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="FunctionTok"/></w:rPr><w:t xml:space="preserve">c</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">;</w:t></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">  }</w:t></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">  </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="KeywordTok"/></w:rPr><w:t xml:space="preserve">return</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve"> </w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="FunctionTok"/></w:rPr><w:t xml:space="preserve">a</w:t></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">;</w:t></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+<w:r><w:rPr><w:rStyle w:val="NormalTok"/></w:rPr><w:t xml:space="preserve">}</w:t></w:r>
+<w:r><w:br w:type="textWrapping"/></w:r>
+</w:p>

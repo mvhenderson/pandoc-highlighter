@@ -1,0 +1,21 @@
+<pre class="SourceCode"><code class="SourceCode">.syntax unified
+<span class="kw">.global</span> main
+
+<span class="co">/*</span>
+<span class="co"> *  A</span>
+<span class="co"> *  multi-line</span>
+<span class="co"> *  comment.</span>
+<span class="co"> */</span>
+
+<span class="co">@ A single line comment.</span>
+
+<span class="kw">main:</span>
+        push    {<span class="fu">sp</span>, <span class="fu">lr</span>}
+        ldr     <span class="fu">r0</span>, <span class="kw">=message</span>
+        bl      puts
+        mov     <span class="fu">r0</span>, <span class="dv">#0</span>
+        pop     {<span class="fu">sp</span>, <span class="fu">pc</span>}
+
+<span class="kw">message:</span>
+        <span class="kw">.asciz</span> <span class="st">&quot;Hello world!&lt;br /&gt;&quot;</span>
+</code></pre>
