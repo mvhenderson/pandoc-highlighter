@@ -61,7 +61,7 @@ describe('Format', function () {
     });
 
     it('ignores unsupported formats', function () {
-        if (should(hl('RawBlock',['',[],[]],'markdown') === undefined).ok);
+        if (should(hl('CodeBlock',['',[],[]],'markdown') === undefined).ok);
     });
 
 });

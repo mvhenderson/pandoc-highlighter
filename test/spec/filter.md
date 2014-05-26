@@ -2,6 +2,8 @@
 
 Test to ensure the filter produces valid documents.
 
+Should work for `console.log("inline code")`{.javascript} too.
+
 ## Javascript
 
 ```javascript

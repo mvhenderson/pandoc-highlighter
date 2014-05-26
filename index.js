@@ -116,12 +116,24 @@ module.exports = function (options) {
         });
         flushLine();
 
-        return {
-            t: type === 'CodeBlock' ? 'RawBlock' : 'RawInline',
-            c: [
-                format.name,
-                format.block({ code:lines.join(format.newline()) })
-            ]
-        };
+        if (type === 'CodeBlock') {
+            return {
+                t: 'RawBlock',
+                c: [
+                    format.name,
+                    format.block({ code:lines.join(format.newline()) })
+                ]
+            };
+
+        }
+        else {
+            return {
+                t: 'RawInline',
+                c: [
+                    format.name,
+                    format.inline({ code:lines.join(format.newline()) })
+                ]
+            };
+        }
     };
 };
