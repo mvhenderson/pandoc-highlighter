@@ -17,16 +17,9 @@ if [ ! -e package.json ]
         exit 1
 fi
 
-# setup custom highlighter as NPM module
-if [ ! -d node_modules/pandoc-highlighter-custom ]
-    then
-        pushd node_modules
-        ln -s ../test/spec/custom pandoc-highlighter-custom > /dev/null
-        popd
-fi
-
-# create the output dir
+# create the output dir and remove old files
 mkdir -p test/.tmp
+rm -f test/.tmp/filter.*
 
 # pandoc args
 filt='-F bin/pandoc-highlighter.js'
@@ -39,3 +32,5 @@ pandoc -s $style -t epub3 $filt $output.epub $1 $input || exit 1
 pandoc -s $style $filt $output.docx $1 $input || exit 1
 pandoc -s $style $filt $output.pdf $1 $input || exit 1
 
+# open them
+open test/.tmp/filter.*
