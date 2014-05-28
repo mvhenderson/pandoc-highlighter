@@ -4,7 +4,7 @@
 // Pandoc filter for highlighted Code/CodeBlock using CodeMirror modes
 'use strict';
 
-/* Support Pandoc standart styles / templates
+/* Support Pandoc standard styles / templates
  Since Pandoc will not insert source code styles unless there is code in the
  document, we insert a code item with no text into the first Para item so
  Pandoc includes styles but doesn't render anything.
