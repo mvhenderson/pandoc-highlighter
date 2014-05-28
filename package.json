@@ -1,13 +1,16 @@
 {
   "name": "pandoc-highlighter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Pandoc source code highlighting with CodeMirror",
   "license": "MIT",
   "repository": "mvhenderson/pandoc-highlighter",
   "bugs": "https://github.com/mvhenderson/pandoc-highlighter/issues",
   "author": "Mike Henderson",
   "main": "index.js",
-  "bin": "bin/pandoc-highlighter.js",
+  "bin": {
+    "pandoc-highlighter": "bin/pandoc-highlighter.js",
+    "codemirror-highlighter": "bin/codemirror-highlighter.js"
+  },
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec test/test.js"
   },
