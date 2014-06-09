@@ -8,7 +8,7 @@
   \KeywordTok{var} \DataTypeTok{x} \NormalTok{=} \FunctionTok{y} \NormalTok{+} \DecValTok{123}\NormalTok{;}
 
   \KeywordTok{for} \NormalTok{(}\KeywordTok{var} \DataTypeTok{i} \NormalTok{=} \DecValTok{0}\NormalTok{;} \FunctionTok{i} \NormalTok{<} \DecValTok{10}\NormalTok{;} \FunctionTok{i}\NormalTok{++)} \NormalTok{\{}
-    \FunctionTok{a} \NormalTok{=} \FunctionTok{b} \FunctionTok{\textbackslash\{\}} \FunctionTok{c}\NormalTok{;}
+    \FunctionTok{a} \NormalTok{=} \FunctionTok{b} \FunctionTok{\textbackslash{}} \FunctionTok{c}\NormalTok{;}
   \NormalTok{\}}
 
   \KeywordTok{return} \FunctionTok{a}\NormalTok{;}
